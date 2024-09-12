@@ -1,0 +1,15 @@
+.card{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px;
+    border-radius: 20px;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+}
+.sociallinks{
+    display: flex;
+    gap: 20px;
+}
