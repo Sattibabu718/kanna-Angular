@@ -71,3 +71,5 @@ component file contains
 -----------------------------------------------------
 To Run Angular Application : ng serve -o
 -----------------------------------------------------
+To Build Angular Application : ng build 
+-----------------------------------------------------
