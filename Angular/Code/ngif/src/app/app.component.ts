@@ -6,16 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  name: string = "suresh";
-  price = 25;
-  isDisabled = false
-  myClass=true
-  fun()
+  isShow = false
+  change()
   {
-    if (this.myClass)
-      this.myClass = false
+    if (this.isShow)
+      this.isShow = false
     else
-      this.myClass=true
+      this.isShow = true
   }
 }
-
