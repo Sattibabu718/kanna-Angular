@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "second": {
+    "randomQuote": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/second",
+            "outputPath": "dist/random-quote",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "second:build:production"
+              "buildTarget": "randomQuote:build:production"
             },
             "development": {
-              "buildTarget": "second:build:development"
+              "buildTarget": "randomQuote:build:development"
             }
           },
           "defaultConfiguration": "development"
